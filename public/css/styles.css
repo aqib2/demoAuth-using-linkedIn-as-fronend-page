@@ -1,0 +1,112 @@
+.card {
+  margin-top: 80px;
+  height: 450px;
+  width: 50%;
+  width: 450px;
+  box-shadow: 2px 2px 5px #aaaaaa;
+  margin-left: 33%;
+  margin-top: 20%;
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.uppermost-div {
+  margin-left: 27px;
+  margin-top: 20px;
+}
+
+.form-div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.input-div {
+  margin-top: 20px;
+
+}
+
+.password-div {
+  margin-top: 30px;
+
+}
+
+.email {
+  width: 80%;
+  margin-left: 40px;
+  border-radius: 7px;
+  height: 52px;
+  padding: 14px 10px;
+  font-weight: 450;
+  font-size: large;
+}
+
+
+.password {
+  width: 80%;
+  margin-left: 40px;
+  border-radius: 7px;
+  height: 52px;
+  padding: 14px 10px;
+  font-weight: 450;
+  font-size: large;
+}
+
+
+.forget-password {
+  margin-top: 17px;
+  margin-left: 37px;
+  color: darkblue;
+}
+
+.sign-in {
+  display: flex;
+
+}
+
+a {
+  text-decoration: dotted;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.sign-in-button {
+
+  text-align: center;
+  width: 80%;
+  margin-top: 1.6rem;
+  margin-left: 38px;
+  margin-left: 43px;
+  padding: 10px;
+  justify-content: center;
+  border-radius: 29px;
+  color: white;
+}
+
+.sign-up {
+  margin-top: 45px;
+  display: flex;
+  justify-content: center;
+}
+
+.join-now {
+  margin-left: 5px;
+}
+
+img {
+  margin-left: 31%;
+  margin-bottom: -36%;
+  width: 166px;
+  height: 108px
+}
+
+@media only screen and (max-width: 700px) {
+  
+  .card {
+      margin-left: 51px;
+  }
+
+}
